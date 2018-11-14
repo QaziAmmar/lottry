@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		203ABAAFA6A3624BC0B00A04 /* Pods_Lottry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFF0990F226E0C83369EF94 /* Pods_Lottry.framework */; };
+		52DC6B147C698B7E0C5C1EEF /* Pods_LottryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2100FABE9003905B7936BC7E /* Pods_LottryUITests.framework */; };
+		8777CBF6219861F0005208D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777CBF5219861F0005208D1 /* AppDelegate.swift */; };
+		8777CBF8219861F0005208D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777CBF7219861F0005208D1 /* ViewController.swift */; };
+		8777CBFB219861F0005208D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8777CBF9219861F0005208D1 /* Main.storyboard */; };
+		8777CBFD219861F0005208D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8777CBFC219861F0005208D1 /* Assets.xcassets */; };
+		8777CC00219861F0005208D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8777CBFE219861F0005208D1 /* LaunchScreen.storyboard */; };
+		8777CC0B219861F1005208D1 /* LottryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777CC0A219861F1005208D1 /* LottryTests.swift */; };
+		8777CC16219861F1005208D1 /* LottryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777CC15219861F1005208D1 /* LottryUITests.swift */; };
+		8777CC2621986369005208D1 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777CC2521986369005208D1 /* WebServices.swift */; };
+		8777CC28219867F8005208D1 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777CC27219867F8005208D1 /* HomeModel.swift */; };
+		8777CC2B219876AE005208D1 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777CC2A219876AE005208D1 /* HomeTableViewCell.swift */; };
+		F892E7DE5EC41C3668ADD5B5 /* Pods_LottryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892215D3DD1941C89BE6D938 /* Pods_LottryTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8777CC07219861F1005208D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8777CBEA219861F0005208D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8777CBF1219861F0005208D1;
+			remoteInfo = Lottry;
+		};
+		8777CC12219861F1005208D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8777CBEA219861F0005208D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8777CBF1219861F0005208D1;
+			remoteInfo = Lottry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2100FABE9003905B7936BC7E /* Pods_LottryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF156023FD240CDD5ABC9AD /* Pods-Lottry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottry.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottry/Pods-Lottry.release.xcconfig"; sourceTree = "<group>"; };
+		86C5352D9AB6DCDDD3E4586D /* Pods-LottryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottryUITests/Pods-LottryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8777CBF2219861F0005208D1 /* Lottry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8777CBF5219861F0005208D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8777CBF7219861F0005208D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8777CBFA219861F0005208D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8777CBFC219861F0005208D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8777CBFF219861F0005208D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8777CC01219861F0005208D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8777CC06219861F1005208D1 /* LottryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8777CC0A219861F1005208D1 /* LottryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottryTests.swift; sourceTree = "<group>"; };
+		8777CC0C219861F1005208D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8777CC11219861F1005208D1 /* LottryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8777CC15219861F1005208D1 /* LottryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottryUITests.swift; sourceTree = "<group>"; };
+		8777CC17219861F1005208D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8777CC2521986369005208D1 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		8777CC27219867F8005208D1 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		8777CC2A219876AE005208D1 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		892215D3DD1941C89BE6D938 /* Pods_LottryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6FB816B292C1EFD32F4EC9 /* Pods-LottryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottryTests/Pods-LottryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9890473533B23D999E5DFCE6 /* Pods-LottryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottryUITests/Pods-LottryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE9A15C3A32F60D655E9CA23 /* Pods-LottryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottryTests/Pods-LottryTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFD02988CD556B9D509D1F05 /* Pods-Lottry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottry/Pods-Lottry.debug.xcconfig"; sourceTree = "<group>"; };
+		BDFF0990F226E0C83369EF94 /* Pods_Lottry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8777CBEF219861F0005208D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203ABAAFA6A3624BC0B00A04 /* Pods_Lottry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8777CC03219861F1005208D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F892E7DE5EC41C3668ADD5B5 /* Pods_LottryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8777CC0E219861F1005208D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DC6B147C698B7E0C5C1EEF /* Pods_LottryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464AEDE09769FC536889CEED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDFF0990F226E0C83369EF94 /* Pods_Lottry.framework */,
+				892215D3DD1941C89BE6D938 /* Pods_LottryTests.framework */,
+				2100FABE9003905B7936BC7E /* Pods_LottryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		557195148F7A6E051496E33A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFD02988CD556B9D509D1F05 /* Pods-Lottry.debug.xcconfig */,
+				5BF156023FD240CDD5ABC9AD /* Pods-Lottry.release.xcconfig */,
+				8F6FB816B292C1EFD32F4EC9 /* Pods-LottryTests.debug.xcconfig */,
+				AE9A15C3A32F60D655E9CA23 /* Pods-LottryTests.release.xcconfig */,
+				9890473533B23D999E5DFCE6 /* Pods-LottryUITests.debug.xcconfig */,
+				86C5352D9AB6DCDDD3E4586D /* Pods-LottryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8777CBE9219861F0005208D1 = {
+			isa = PBXGroup;
+			children = (
+				8777CBF4219861F0005208D1 /* Lottry */,
+				8777CC09219861F1005208D1 /* LottryTests */,
+				8777CC14219861F1005208D1 /* LottryUITests */,
+				8777CBF3219861F0005208D1 /* Products */,
+				557195148F7A6E051496E33A /* Pods */,
+				464AEDE09769FC536889CEED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8777CBF3219861F0005208D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8777CBF2219861F0005208D1 /* Lottry.app */,
+				8777CC06219861F1005208D1 /* LottryTests.xctest */,
+				8777CC11219861F1005208D1 /* LottryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8777CBF4219861F0005208D1 /* Lottry */ = {
+			isa = PBXGroup;
+			children = (
+				8777CBF5219861F0005208D1 /* AppDelegate.swift */,
+				8777CBF9219861F0005208D1 /* Main.storyboard */,
+				8777CBFE219861F0005208D1 /* LaunchScreen.storyboard */,
+				8777CC2421986212005208D1 /* HomeViewController */,
+				8777CC23219861FA005208D1 /* WebServices */,
+				8777CBFC219861F0005208D1 /* Assets.xcassets */,
+				8777CC01219861F0005208D1 /* Info.plist */,
+			);
+			path = Lottry;
+			sourceTree = "<group>";
+		};
+		8777CC09219861F1005208D1 /* LottryTests */ = {
+			isa = PBXGroup;
+			children = (
+				8777CC0A219861F1005208D1 /* LottryTests.swift */,
+				8777CC0C219861F1005208D1 /* Info.plist */,
+			);
+			path = LottryTests;
+			sourceTree = "<group>";
+		};
+		8777CC14219861F1005208D1 /* LottryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8777CC15219861F1005208D1 /* LottryUITests.swift */,
+				8777CC17219861F1005208D1 /* Info.plist */,
+			);
+			path = LottryUITests;
+			sourceTree = "<group>";
+		};
+		8777CC23219861FA005208D1 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				8777CC2521986369005208D1 /* WebServices.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		8777CC2421986212005208D1 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8777CC2921987690005208D1 /* TableViewCell */,
+				8777CBF7219861F0005208D1 /* ViewController.swift */,
+				8777CC27219867F8005208D1 /* HomeModel.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		8777CC2921987690005208D1 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8777CC2A219876AE005208D1 /* HomeTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8777CBF1219861F0005208D1 /* Lottry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8777CC1A219861F1005208D1 /* Build configuration list for PBXNativeTarget "Lottry" */;
+			buildPhases = (
+				5DC03475B5A5912F15A1B057 /* [CP] Check Pods Manifest.lock */,
+				8777CBEE219861F0005208D1 /* Sources */,
+				8777CBEF219861F0005208D1 /* Frameworks */,
+				8777CBF0219861F0005208D1 /* Resources */,
+				AF3ABBC08C2ADF13C94EA371 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lottry;
+			productName = Lottry;
+			productReference = 8777CBF2219861F0005208D1 /* Lottry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8777CC05219861F1005208D1 /* LottryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8777CC1D219861F1005208D1 /* Build configuration list for PBXNativeTarget "LottryTests" */;
+			buildPhases = (
+				A4845D71E1817FB433F1BE00 /* [CP] Check Pods Manifest.lock */,
+				8777CC02219861F1005208D1 /* Sources */,
+				8777CC03219861F1005208D1 /* Frameworks */,
+				8777CC04219861F1005208D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8777CC08219861F1005208D1 /* PBXTargetDependency */,
+			);
+			name = LottryTests;
+			productName = LottryTests;
+			productReference = 8777CC06219861F1005208D1 /* LottryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8777CC10219861F1005208D1 /* LottryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8777CC20219861F1005208D1 /* Build configuration list for PBXNativeTarget "LottryUITests" */;
+			buildPhases = (
+				9332670103B6776D5B703CB8 /* [CP] Check Pods Manifest.lock */,
+				8777CC0D219861F1005208D1 /* Sources */,
+				8777CC0E219861F1005208D1 /* Frameworks */,
+				8777CC0F219861F1005208D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8777CC13219861F1005208D1 /* PBXTargetDependency */,
+			);
+			name = LottryUITests;
+			productName = LottryUITests;
+			productReference = 8777CC11219861F1005208D1 /* LottryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8777CBEA219861F0005208D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Qazi Ammar Arshad";
+				TargetAttributes = {
+					8777CBF1219861F0005208D1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8777CC05219861F1005208D1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8777CBF1219861F0005208D1;
+					};
+					8777CC10219861F1005208D1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8777CBF1219861F0005208D1;
+					};
+				};
+			};
+			buildConfigurationList = 8777CBED219861F0005208D1 /* Build configuration list for PBXProject "Lottry" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8777CBE9219861F0005208D1;
+			productRefGroup = 8777CBF3219861F0005208D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8777CBF1219861F0005208D1 /* Lottry */,
+				8777CC05219861F1005208D1 /* LottryTests */,
+				8777CC10219861F1005208D1 /* LottryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8777CBF0219861F0005208D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8777CC00219861F0005208D1 /* LaunchScreen.storyboard in Resources */,
+				8777CBFD219861F0005208D1 /* Assets.xcassets in Resources */,
+				8777CBFB219861F0005208D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8777CC04219861F1005208D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8777CC0F219861F1005208D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DC03475B5A5912F15A1B057 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lottry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9332670103B6776D5B703CB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4845D71E1817FB433F1BE00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF3ABBC08C2ADF13C94EA371 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lottry/Pods-Lottry-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lottry/Pods-Lottry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8777CBEE219861F0005208D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8777CC28219867F8005208D1 /* HomeModel.swift in Sources */,
+				8777CC2B219876AE005208D1 /* HomeTableViewCell.swift in Sources */,
+				8777CBF8219861F0005208D1 /* ViewController.swift in Sources */,
+				8777CBF6219861F0005208D1 /* AppDelegate.swift in Sources */,
+				8777CC2621986369005208D1 /* WebServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8777CC02219861F1005208D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8777CC0B219861F1005208D1 /* LottryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8777CC0D219861F1005208D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8777CC16219861F1005208D1 /* LottryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8777CC08219861F1005208D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8777CBF1219861F0005208D1 /* Lottry */;
+			targetProxy = 8777CC07219861F1005208D1 /* PBXContainerItemProxy */;
+		};
+		8777CC13219861F1005208D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8777CBF1219861F0005208D1 /* Lottry */;
+			targetProxy = 8777CC12219861F1005208D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8777CBF9219861F0005208D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8777CBFA219861F0005208D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8777CBFE219861F0005208D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8777CBFF219861F0005208D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8777CC18219861F1005208D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8777CC19219861F1005208D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8777CC1B219861F1005208D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD02988CD556B9D509D1F05 /* Pods-Lottry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 876UF39PZ6;
+				INFOPLIST_FILE = Lottry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ammar.Lottry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8777CC1C219861F1005208D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF156023FD240CDD5ABC9AD /* Pods-Lottry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 876UF39PZ6;
+				INFOPLIST_FILE = Lottry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ammar.Lottry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8777CC1E219861F1005208D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6FB816B292C1EFD32F4EC9 /* Pods-LottryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 876UF39PZ6;
+				INFOPLIST_FILE = LottryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ammar.LottryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lottry.app/Lottry";
+			};
+			name = Debug;
+		};
+		8777CC1F219861F1005208D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9A15C3A32F60D655E9CA23 /* Pods-LottryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 876UF39PZ6;
+				INFOPLIST_FILE = LottryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ammar.LottryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lottry.app/Lottry";
+			};
+			name = Release;
+		};
+		8777CC21219861F1005208D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9890473533B23D999E5DFCE6 /* Pods-LottryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 876UF39PZ6;
+				INFOPLIST_FILE = LottryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ammar.LottryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lottry;
+			};
+			name = Debug;
+		};
+		8777CC22219861F1005208D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C5352D9AB6DCDDD3E4586D /* Pods-LottryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 876UF39PZ6;
+				INFOPLIST_FILE = LottryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ammar.LottryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lottry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8777CBED219861F0005208D1 /* Build configuration list for PBXProject "Lottry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8777CC18219861F1005208D1 /* Debug */,
+				8777CC19219861F1005208D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8777CC1A219861F1005208D1 /* Build configuration list for PBXNativeTarget "Lottry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8777CC1B219861F1005208D1 /* Debug */,
+				8777CC1C219861F1005208D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8777CC1D219861F1005208D1 /* Build configuration list for PBXNativeTarget "LottryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8777CC1E219861F1005208D1 /* Debug */,
+				8777CC1F219861F1005208D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8777CC20219861F1005208D1 /* Build configuration list for PBXNativeTarget "LottryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8777CC21219861F1005208D1 /* Debug */,
+				8777CC22219861F1005208D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8777CBEA219861F0005208D1 /* Project object */;
+}
